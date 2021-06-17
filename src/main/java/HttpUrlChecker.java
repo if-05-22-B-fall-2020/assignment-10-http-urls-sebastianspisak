@@ -22,3 +22,13 @@
  * TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
  */
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class HttpUrlChecker {
+    public static Matcher getMatcher(String http) {
+        Pattern pattern = Pattern.compile("http://([a-z]|.)*");
+        return pattern.matcher(http);
+    }
+}
+
