@@ -27,7 +27,7 @@ import java.util.regex.Pattern;
 
 public class HttpUrlChecker {
     public static Matcher getMatcher(String http) {
-        Pattern pattern = Pattern.compile("http://([a-z])*[.]([a-z]|[.])*");
+        Pattern pattern = Pattern.compile("http://([a-z])*[.]([a-z]|[.]|[-])*");
         return pattern.matcher(http);
     }
 }
