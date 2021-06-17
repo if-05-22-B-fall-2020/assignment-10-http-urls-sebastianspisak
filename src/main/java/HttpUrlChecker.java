@@ -22,6 +22,11 @@
  * TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
  */
 
+/*Sebastian Spisak 3BHIF
+  HTBLA Leonding 3BHIF
+        17.6.2021
+ */
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
