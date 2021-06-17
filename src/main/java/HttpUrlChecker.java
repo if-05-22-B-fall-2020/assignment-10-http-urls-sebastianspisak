@@ -32,7 +32,7 @@ import java.util.regex.Pattern;
 
 public class HttpUrlChecker {
     public static Matcher getMatcher(String http) {
-        Pattern pattern = Pattern.compile("^(http)s?://([a-z]|[0-9])*[.][a-z]([.]|[-]|[a-z]*)*");
+        Pattern pattern = Pattern.compile("(http)s?://([a-z]|[0-9])*[.][a-z]([.]|[-]|[a-z]*)*");
         return pattern.matcher(http);
     }
 }
